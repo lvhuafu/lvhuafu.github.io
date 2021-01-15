@@ -1,1 +1,117 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T05:06:12.482Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="M8lZUoAMANZPImJlRGIL" version="14.1.9" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-15T07:13:12.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="SC7jdrqbsAFCPz9Gedyl" version="14.1.9" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1401" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="45" y="70" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="访问10.236.217.96：8000/api/user/getuserresource" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="drzdLaxFMERdPP81Loxy-1" value="后端/sdk" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="70" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="drzdLaxFMERdPP81Loxy-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="drzdLaxFMERdPP81Loxy-1">
+          <mxGeometry x="45" y="70" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="drzdLaxFMERdPP81Loxy-3" value="访问10.236.103.115：18501/api/user/getuserresource" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.829;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="drzdLaxFMERdPP81Loxy-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="159.7600000000001" as="sourcePoint" />
+            <mxPoint x="900" y="159.7600000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="drzdLaxFMERdPP81Loxy-4" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="260" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="drzdLaxFMERdPP81Loxy-5" value="保存请求（后端域名）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="150" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="drzdLaxFMERdPP81Loxy-6" value="497，redirecturl:http://tj1-miui-micfc-ksc-vr1-10293-ko2v4abi3.kscn:4004/api/oauth2/authorize" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" source="drzdLaxFMERdPP81Loxy-1" target="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="-0.0407" y="-10" relative="1" as="geometry">
+            <mxPoint x="740" y="220" as="sourcePoint" />
+            <mxPoint x="660" y="220" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="drzdLaxFMERdPP81Loxy-7" value="http://tj1-miui-micfc-ksc-vr1-10293-ko2v4abi3.kscn:4004/&lt;br&gt;api/oauth2/authorize(浏览器访问)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="0.0407" y="-10" relative="1" as="geometry">
+            <mxPoint x="270" y="219.76" as="sourcePoint" />
+            <mxPoint x="190" y="219.76" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="220" />
+              <mxPoint x="200" y="220" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="drzdLaxFMERdPP81Loxy-8" value="回调10.236.217.96：8000/api/oauth2/authorizeCode" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="-0.0213" y="10" relative="1" as="geometry">
+            <mxPoint x="60" y="270.0000000000001" as="sourcePoint" />
+            <mxPoint x="530" y="270.0000000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="drzdLaxFMERdPP81Loxy-9" value="访问10.236.103.115：18501/api/oauth2/authorizeCode" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="drzdLaxFMERdPP81Loxy-1">
+          <mxGeometry x="-0.0213" y="10" relative="1" as="geometry">
+            <mxPoint x="530" y="270.0000000000001" as="sourcePoint" />
+            <mxPoint x="1000" y="270.0000000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="drzdLaxFMERdPP81Loxy-10" value="拿出请求（后端域名）&lt;br&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;10.236.103.115：18501/api/user/getuserresource&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="255" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="drzdLaxFMERdPP81Loxy-11" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="150" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="drzdLaxFMERdPP81Loxy-14" value="497，10.236.103.115：18501/api/user/getuserresource" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry x="-0.0407" y="-10" relative="1" as="geometry">
+            <mxPoint x="1139.48" y="330" as="sourcePoint" />
+            <mxPoint x="530.0038095238097" y="330" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="drzdLaxFMERdPP81Loxy-15" value="访问10.236.103.115：18501/api/user/getuserresource" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="drzdLaxFMERdPP81Loxy-1">
+          <mxGeometry x="-0.0213" y="10" relative="1" as="geometry">
+            <mxPoint x="530" y="370.0000000000001" as="sourcePoint" />
+            <mxPoint x="1000" y="370.0000000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="drzdLaxFMERdPP81Loxy-16" value="访问10.236.217.96：8000/api/user/getuserresource(浏览器访问)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry x="0.0407" y="-10" relative="1" as="geometry">
+            <mxPoint x="529.48" y="330" as="sourcePoint" />
+            <mxPoint x="50.00380952380941" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="359.98" y="330" />
+              <mxPoint x="199.98" y="330" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="drzdLaxFMERdPP81Loxy-17" value="访问10.236.217.96：8000/api/user/getuserresource" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="370.00000000000034" as="sourcePoint" />
+            <mxPoint x="530" y="370.00000000000034" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="drzdLaxFMERdPP81Loxy-18" value="这里可能还需要修改sdk，这里sdk只有302，没有处理ajax请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="665" y="285" width="350" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
